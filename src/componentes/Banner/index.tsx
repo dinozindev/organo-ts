@@ -1,5 +1,4 @@
 import './Banner.css'
-import React from 'react';
 
 // a interrogação indica que essa propriedade é opcional, portanto, caso não seja informada, o componente ainda assim é renderizado. 
 interface BannerProps {

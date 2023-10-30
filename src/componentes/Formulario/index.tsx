@@ -6,8 +6,8 @@ import './Formulario.css'
 import { IColaborador } from '../../shared/interfaces/IColaborador'
 
 interface FormularioProps {
-    aoColaboradorCadastrado: (colaborador: IColaborador) => void
-    times: string[]
+    aoColaboradorCadastrado: (colaborador: IColaborador) => void;
+    times: string[];
 }
 
 const Formulario = (props: FormularioProps) => {
